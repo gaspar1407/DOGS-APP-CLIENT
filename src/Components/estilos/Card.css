@@ -1,0 +1,44 @@
+.Card {
+    display: flex;
+    width: 270px;
+    height: 370px;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: rgba(47, 79, 79, 0.605);
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 8px rgb(5, 0, 0);
+}
+
+.Card:hover{
+    background-color: rgba(47, 79, 79, 0.866);
+}
+
+
+.img-card{
+    height: 50%;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-radius: 20px;
+    align-content:center;
+}
+
+.h-card h2{
+   font-family: "Roboto", sans-serif ;
+   font-size: 20px;
+   color: aliceblue;
+}
+.h-card h3{
+    font-family: "Roboto", sans-serif ;
+   font-size: 15px;
+   color: rgb(1, 10, 17);
+}
+
+.h-card h4{
+    font-family: "Roboto", sans-serif ;
+    font-size: 15px;
+    color: rgb(1, 10, 17);
+}

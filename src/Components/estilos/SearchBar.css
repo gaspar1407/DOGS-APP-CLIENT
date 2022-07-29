@@ -1,0 +1,66 @@
+.search-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     position: center;
+     align-content: center;
+     align-items: center;
+ }
+ 
+  .search-form{
+     display:flex;
+     justify-content: center;
+     text-align: center;
+     color: rgb(224, 223, 223);
+     background-color: rgba(255, 255, 255, 0);
+     border: 1px solid rgba(255, 255, 255, 0.719);
+     border-radius: 5px;
+     margin: 5px;
+     padding: 2px;
+     transition: 0.3s;
+ }
+ 
+ #dog{
+   justify-content: center;
+   color: white;
+   background-color: rgba(255, 255, 255, 0);
+   border: 1px solid rgba(255, 255, 255, 0.719);
+   border-radius: 5px;
+   margin: 5px;
+   padding: 2px;
+   transition: 0.3s;
+ }
+ 
+ #dog::placeholder{
+   color: white;
+ }
+ 
+.FindDog{
+  display: flex;
+  justify-content: center;
+}
+ 
+ .btn-search {
+   background-color: rgba(245, 245, 245, 0.082);
+   backdrop-filter: blur(5px);
+   border-radius: 10%;
+   padding: 5px 10px;
+ 
+   border-color: 1px solid #242424;
+   color:white;
+   cursor: pointer;
+   transition: 0.3s;
+   }
+   .btn-search:hover {
+     transition-delay: 0s;
+     color: rgba(255, 255, 255, 0.753);
+      box-shadow: 0 0 3px rgb(214, 214, 212),
+                 0 0 5px rgb(214, 214, 212),
+                 0 0 5px rgb(214, 214, 212),
+                 0 0 5px rgb(214, 214, 212),
+                 0 0 5px rgb(214, 214, 212);
+                 transform: translateY(2px); 
+   }
+   .btn-search:hover:after {
+     opacity: 1;
+   }

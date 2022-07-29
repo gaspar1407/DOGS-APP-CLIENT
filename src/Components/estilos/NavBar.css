@@ -1,0 +1,75 @@
+.nav{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.804);
+    border: double;
+    background-color: #111;
+    flex-wrap: wrap;
+}
+
+.div-1, .div-2{
+   
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+   /*  padding-top: 10px; */
+    padding-bottom: 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.div-3{
+    margin-left: 15em; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+}
+
+.div-1:hover, .div-2:hover{
+    background-color: rgba(128, 128, 128, 0.576)
+}
+
+#home{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#dog-created{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+}
+
+img{
+    width: 30px;
+    border-radius: 100%;
+   /*  float: left; */
+    padding: 14px 16px ;
+    padding-top: 25px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    align-content: center;
+}

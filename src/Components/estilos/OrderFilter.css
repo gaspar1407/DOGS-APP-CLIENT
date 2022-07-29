@@ -1,0 +1,59 @@
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: center;
+   /*  height: 100px; */
+    align-content: center;
+    align-items: center;
+}
+
+select{
+    /* background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border-radius: 5%; */
+    
+    justify-content: center;
+    color: rgb(224, 223, 223);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.719);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+select:hover{
+    background-color: #0a0b0b;
+}
+
+option{
+    color: rgb(224, 223, 223);
+    background-color: rgb(70 95 104 / 62%);
+    backdrop-filter:  blur(5px);
+    cursor: pointer;
+}
+
+.buttonAllCountries{
+    background-color: rgba(245, 245, 245, 0.082);
+    backdrop-filter: blur(5px);
+    border-radius: 10%;
+    padding: 5px 10px;
+
+    border-color: 1px solid #242424;
+    color:white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonAllCountries:hover{
+    transition-delay: 0s;
+    color: rgba(255, 255, 255, 0.753);
+    box-shadow: 0 0 4px rgb(214, 214, 212),
+                0 0 7px rgb(214, 214, 212),
+                0 0 7px rgb(214, 214, 212),
+                0 0 7px rgb(214, 214, 212),
+                0 0 7px rgb(214, 214, 212);
+                transform: translateY(2px);
+
+}
